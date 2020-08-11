@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #293251;
+    text-align: center;
+}
+
+h1, p {
+    font-family: 'Domine', serif;
+}
+
+.container {
+    margin: 10px auto;
+    padding: 10px;
+    width: 67vh;
+    height: 97vh;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.weather_container {
+    background: rgb(207, 235, 255);
+}
+
+.notification {
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification h1 {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.tempElement{
+font-size: 2.5em;
+}
+.locElement{
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Domine', serif;
+
+}
